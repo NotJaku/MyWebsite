@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>James - My Projects</title>
+	<meta name="description" content="Frontend developer's website">
+	<meta name="keywords" content="developer, frontend, games">
+	<meta name="author" content="JameSS">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+
+	<link rel="icon" href="img/jamess.ico">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+<body>
+	<header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">JAMES</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toogle navigation">
+			        	<span class="navbar-toggler-icon"></span>
+			        </button>
+                    <div class="collapse navbar-collapse" id="mainmenu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projects.html">My Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+		<article>
+            <div class="container">
+            	<div class="col-lg-12 text-body p-4">
+                    <header>
+                        <center>
+                             <h1 id="title-first" class="font-weight-bold text-uppercase ml-0 mb-4">My projects</h1>
+                        </center>
+                    </header>
+
+                    <p class="message">This is the list of my projects.</p>
+                    <p class="message">From Discord Bot to many games and apps!</p>
+
+                    <div class="project">
+                        <h2 class="project-title" onclick="bot()">OmegaBot</h2>
+
+                        <p class="project-description"><b><i>OmegaBot</i></b> setup moderation and have very good 4fun commands! From administrator's to very good 4fun commands. <u>You can add this bot now :)</u></p>
+
+                        <img class="img-fluid" id="screenshot" src="img/omegabot.png">
+
+                        <h6 class="project-class">I USED</h6>
+
+                        <span class="tech js" onclick="javascript()">JavaScript</span>
+                        <span class="tech node" onclick="node()">Node.js</span>
+                        <span class="tech djs" onclick="djs()">Discord.js</span>
+                    </div>
+
+                    <div class="project">
+                        <h2 class="project-title">Cookie Factory</h2>
+
+                        <p class="project-description">New version of <u>Funny Cookie Clicker!</u> Made in Unity. Only Windows Support. New very huge updates soon!</p>
+
+                        <img class="img-fluid" id="screenshot" width="640px" height="360px" src="img/cookiefactory.png">
+
+                        <h6 class="project-class">I USED</h6>
+
+                        <span class="tech csharp" onclick="csharp()">C-Sharp</span>
+                        <span class="tech unity" onclick="unity()">Unity</span>
+                    </div>
+
+                    <div class="project">
+                        <h2 class="project-title" onclick="cookiefactory()">Time</h2>
+
+                        <p class="project-description"><b>Framework!? </b>I using HTML, CSS, JavaScript and JQuery to make this framework! You can get more time! <i><u>Now it's beta-tests!</u></i></p>
+
+                        <img class="img-fluid" id="screenshot" width="640px" height="360px" src="img/time.png">
+
+                        <h6 class="project-class">I USED</h6>
+
+                        <span class="tech js" onclick="javascript()">JavaScript</span>
+                        <span class="tech html" onclick="html()">HTML</span>
+                        <span class="tech css" onclick="css()">CSS</span>
+                        <span class="tech jquery" onclick="jquery()">JQuery</span>
+                    </div>
+
+                    <center><button class="source-link" onclick="github()">My GitHub</button></center>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <center>
+            <h3 class="footer-title">COPYRIGHT 2022 JAMES</h2>
+            <h4 class="footer-content">ALL RIGHTS RESERVED</h3>
+        </center>
+    </footer>
+
+    <button id="ToHigh">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+    <script src="js/scroll.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/load.js"></script>
+</body>
+</html>
